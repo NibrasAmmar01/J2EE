@@ -1,0 +1,36 @@
+@charset "UTF-8";
+body {
+	font-family: 'Arial', sans-serif;
+	background-color: #f4f4f4;
+	margin: 10;
+	padding: 10;
+	box-sizing: border-box;
+}
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h2{
+	color: #333;
+}
+p{
+	color: #555;
+}
+a{
+	color: #007bff;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+.error-message {
+	color: #ff0000;
+	margin-top: 10px;
+}
+.success-message {
+	color: #008000;
+	margin-top: 10px;
+}
