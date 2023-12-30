@@ -103,7 +103,7 @@ public class TaskControllerServlet extends HttpServlet{
 			            }
 			            model.setMode("updateTask");
 			            taskDAO.updateTask(existingTask);
-			            request.getRequestDispatcher("/WEB-INF/failedUpdateTask.jsp").forward(request, response);
+			            request.getRequestDispatcher("/WEB-INF/successUpdateTask.jsp").forward(request, response);
 					} else {
 						request.getRequestDispatcher("/WEB-INF/failedUpdateTask.jsp").forward(request, response);
 					}

@@ -2,14 +2,20 @@ package com.mvc.entities$;
 
 import java.io.Serializable;
 import java.util.Date;
-import javax.persistence.Entity;
-import javax.persistence.Id;
-import javax.persistence.Table;
-import javax.persistence.Temporal;
-import javax.persistence.TemporalType;
-import javax.persistence.ManyToOne;
-import javax.persistence.JoinColumn;
-
+//import javax.persistence.Entity;
+//import javax.persistence.Id;
+//import javax.persistence.Table;
+//import javax.persistence.Temporal;
+//import javax.persistence.TemporalType;
+//import javax.persistence.ManyToOne;
+//import javax.persistence.JoinColumn;
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+import jakarta.persistence.Id;
+import jakarta.persistence.ManyToOne;
+import jakarta.persistence.JoinColumn;
+import jakarta.persistence.Temporal;
+import jakarta.persistence.TemporalType;
 @Entity
 @Table(name = "Task")
 public class Task implements Serializable {

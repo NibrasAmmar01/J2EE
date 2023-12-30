@@ -1,6 +1,8 @@
 package com.mvc.model;
 
+import com.mvc.entities$.Task;
 import java.util.Date;
+import java.util.List;
 
 public class TaskModel {
 	private String code;
@@ -10,6 +12,7 @@ public class TaskModel {
 	private ProjectModel project;
 	private String errors;
 	private String mode = "ajout";
+	private List<Task> tasks;
 	public TaskModel() {
 	}
 	
@@ -64,5 +67,12 @@ public class TaskModel {
 	public void setMode(String mode) {
 		this.mode = mode;
 	}
+	public List<Task> getTasks() {
+        return tasks;
+    }
+
+    public void setTasks(List<Task> tasks) {
+        this.tasks = tasks;
+    }
 }
 

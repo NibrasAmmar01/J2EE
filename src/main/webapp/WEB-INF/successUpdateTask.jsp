@@ -4,16 +4,16 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Success - Project Inserted</title>
+<title>Success - Task Inserted</title>
 <link rel="stylesheet" type="text/css" href="css/Styles.css">
 </head>
 <body>
-<h2>Project Successfully Updated</h2>
-<p>The Project has been updated successfully.</p>
+<h2>Task Successfully Updated</h2>
+<p>The Task has been updated successfully.</p>
 
 
 
 
-<a href="/CatalogueMVC/ControllerServlet">Go back to home</a>
+<a href="/CatalogueMVC/TaskControllerServlet">Go back to home</a>
 </body>
 </html>

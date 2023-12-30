@@ -1,17 +1,49 @@
 div{
 	border: 1px dotted gray;
-	padding: 10px;
-	margin: 10px;
+	padding: 15px;
+	margin: 15px;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-.table1 th{
+.Project th{
 	border: 1px dotted gray;
 	padding: 10px;
-	margin: 10px;
 	background: pink;
 }
-.table1 td{
+.Project td{
 	border: 1px dotted gray;
 	padding: 10px;
-	margin: 10px;
 	background: white;
+	text-align: center;
+}
+form{
+	margin-bottom: 20px;
+}
+form table{
+	width: 100%;
+}
+form td{
+	padding: 8px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="submit"]{
+	padding: 8px;
+	margin: 5px;
+}
+form table tr td {
+	margin-bottom: 10px;
+}
+form tr:last-child td{
+	text-align: right;
+}
+.Project th, 
+.Project td, 
+input[type="submit"]{
+	transition: background-color 0.3s ease;
+}
+.Project th:hover,
+.Project td:hover,
+input[type="submit"]:hover{
+	background-color: #f5f5f5;
 }

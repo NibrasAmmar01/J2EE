@@ -25,6 +25,7 @@ public class TaskDAOImpl implements TaskDAO {
 	public List<Task> getAllTasks() {
 	    Query query = em.createQuery("SELECT t FROM Task t");
 		return query.getResultList();
+		
 	}
 	
 	@Override

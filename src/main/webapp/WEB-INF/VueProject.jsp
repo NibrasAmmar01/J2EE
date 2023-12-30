@@ -67,9 +67,6 @@ function confirmer(url){
   </form>
  </div>
  <div>
-  ${model.errors}
- </div>
- <div>
   <table class="Project">
    <tr>
     <th>Code</th> 
