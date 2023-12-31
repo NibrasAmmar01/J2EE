@@ -28,7 +28,7 @@ public class Task implements Serializable {
 	@Temporal(TemporalType.DATE)
 	private Date endDate;
 	@ManyToOne
-	@JoinColumn(name = "project_code")
+	@JoinColumn(name = "code")
 	private Project project;
 	
 	@Id
